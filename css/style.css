@@ -9,7 +9,7 @@ body {
     background-color: yellow;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     .loading {
         transition: 5s;
         opacity: 1;
