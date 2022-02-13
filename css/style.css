@@ -8,7 +8,7 @@
 body {
     background-color: green;
 }
-
+@media only screen and (min-width: 320px) and (max-width: 576px)
     .loading {
         transition: 5s;
         opacity: 1;
@@ -83,3 +83,4 @@ body {
         font-size: 45px;
         padding: 35px;
     }
+}
