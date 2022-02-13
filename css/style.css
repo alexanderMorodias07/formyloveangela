@@ -9,7 +9,6 @@ body {
     background-color: yellow;
 }
 
-@media (max-width: 480px) {
     .loading {
         transition: 5s;
         opacity: 1;
@@ -84,4 +83,3 @@ body {
         font-size: 45px;
         padding: 35px;
     }
-}
