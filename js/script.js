@@ -10,7 +10,7 @@ let buttonsContainer = document.getElementById('buttonsContainer');
 
 
 function volumen() {
-    player.volume = '.2';
+    player.volume = '.8';
 }
 volumen();
 
