@@ -3,7 +3,7 @@ let mainBody = document.getElementById('mainBody');
 let loadingPage = document.getElementById('loading');
 
 function volumen() {
-    player.volume = '.0';
+    player.volume = '.2';
 }
 volumen();
 
