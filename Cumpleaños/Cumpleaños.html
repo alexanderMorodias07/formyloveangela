@@ -4,17 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styleCumpleaños.css">
+    <meta name="theme-color" content="#282c34" />
+    <link rel="stylesheet" href="assets/css/styleCumpleaños.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Regalo</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <h1>Cuenta Regresiva</h1>
-      </header>
-      <div id="countDown"></div>
+    <div>
+      <section class="first-view">
+        <div id="modalBtn"></div>
+        <p id="felicitacion"></p>
+        <div id="countDown"></div>
+        <p id="wait"></p>
+      </section>
+
+      <section class="second-view" id="my-canvas">
+        <!-- <div class="container">
+          <h1 class="felicitacion" id="titleFelicitaciones">
+            Feliz Cumpleaños!!!
+          </h1>
+          <h2 class="contador" id="contadorAge">0</h2>
+          <figure class="imgCumpleaños" id="dinoImg"></figure>
+        </div>
+      </section> -->
     </div>
 
     <script src="../js/index.js" type="module"></script>
+    <script src="../js/generar.js" type="module"></script>
+    
+   
   </body>
 </html>

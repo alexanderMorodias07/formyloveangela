@@ -1,15 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  transition: .5s;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* background-color: #282c34; */
+  background-color: rgb(244, 230, 253);
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  text-align: center;
 }
 
-@media screen and (max-width: 400px){
-    .container{
-        max-width: 1200px;
-        min-width: 100vw;
-        padding: 2rem 3rem;
-    }    
-}
+
+
+@media screen and (max-width: 400px) {
+  .first-view {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transition: 0.5s ease-out;
+    clip-path: circle(131.2% at 7% 7%);
+  }
+  #countDown{
+    width: 100%;
+    transition: .5s;
+  }
+  #felicitacion{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 2rem;
+  }
+
+  .Time{
+    font-size: 3rem;
+    color: rgb(106, 64, 102);
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    width: 100%;
+    transition: .5s;
+  }
+  .second-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    position: relative;
+    z-index: -999;
+  }
+
+  .is-active {
+    clip-path: circle(20% at 0 0);
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .modal-btn {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    top: -100px;
+    left: -100px;
+    border-radius: 50%;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 1.5rem;
+    color: rgb(106, 64, 102);;
+  }
+
+  .felicitacion {
+    display: block;
+    font-size: 1.7rem;
+    white-space: nowrap;
+    border-right: 4px solid;
+    font-family: monospace;
+    width: 19ch;
+    animation: typing 1.5s steps(19), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+    color: rgb(106, 64, 102);
+  }
+  
+  .imgCumpleaños {
+    width: 100%;
+    margin: 0;
+  }
+  .imgCumpleaños img {
+    width: 80%;
+  }
+  
+  .contador {
+    font-size: 4rem;
+    background-color: transparent;
+    color: rgb(106, 64, 102);
+    font-size: 5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .contador-off {
+    animation: palp 0.5s ease-out;
+    color: rgb(106, 64, 102);
+  }
+  .img-text{
+    color: rgb(106, 64, 102);
+    font-size: 1.5rem;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @keyframes palp {
+    0% {
+      scale: .5;
+    }
+    70% {
+      scale: 2;
+    }
+  }
+}
