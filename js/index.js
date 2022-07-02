@@ -1,6 +1,6 @@
 import CountDown from "./cuentaRegresiva.js";
-import Contador from "./contador.js";
-import generar from "./generar.js";
+// import Contador from "./contador.js";
+// import generar from "./generar.js";
 
 const d = document;
 
