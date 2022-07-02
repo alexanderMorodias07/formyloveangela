@@ -10,7 +10,7 @@ export default function contador(id, n) {
     i++;
     const $dinoImg = d.getElementById("dinoImg");
     setTimeout(() => {
-      $dinoImg.innerHTML = `<img src="assets/img/dino.png" alt="Cumpleaños" />
+      $dinoImg.innerHTML = `<img src="cumple/assets/img/dino.png" alt="Cumpleaños" />
         <figcaption class="img-text">Mi querida dinosaurio</figcaption>`;
     }, 100);
     if (i === n + 1) {
