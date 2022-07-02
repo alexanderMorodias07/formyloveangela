@@ -5,7 +5,7 @@ import generar from "./generar.js";
 const d = document;
 
 d.addEventListener("DOMContentLoaded", () =>{
-   CountDown("countDown", "Jul 2, 2022 19:19:00", "Feliz Cumpleaños");
+   CountDown("countDown", "Jul 3, 2022 00:00:00", "Feliz Cumpleaños");
    // generar(".modal-btn", ".first-view")
    //Contador("contadorAge", 22);
 })
