@@ -23,8 +23,8 @@ export default function CountDown(id, limitDate, finalMessage){
             // $contDown.innerHTML = `<p class="Time">000:00:00:00</p>`;
             // CountDown("countDown", "Jul 3, 2023 00:00:00", "Feliz Cumpleaños");
             // $wait.innerHTML = `Para el proximo Cumpleaños`;
-            d.getElementById("modalBtn").classList.add("modal-btn");
-            d.getElementById("modalBtn").innerHTML = `Click`;
+            // d.getElementById("modalBtn").classList.add("modal-btn");
+            // d.getElementById("modalBtn").innerHTML = `Click`;
             
         }   
     }, 1000)
