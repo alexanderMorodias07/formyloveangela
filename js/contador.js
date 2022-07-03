@@ -1,3 +1,4 @@
+const d = document;
 export default function contador(id, n) {
   const $contador = d.getElementById(id);
   let i = 0;
