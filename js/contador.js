@@ -1,5 +1,5 @@
-const d = document;
 export default function Contador(id, n) {
+  const d = document;
   const $contador = d.getElementById(id);
   let i = 0;
   
