@@ -1,4 +1,4 @@
-import contador from "./Contador.js";
+import Contador from "../js/contador.js";
 
 export default function generar(boton, seccion) {
   const d = document;
@@ -26,7 +26,7 @@ export default function generar(boton, seccion) {
     if (e.target.matches(boton)) {
         d.querySelector(seccion).classList.toggle("is-active");
         $secondView.appendChild($view);
-        contador("contadorAge", 22);
+        Contador("contadorAge", 22);
       }
   });
 }
